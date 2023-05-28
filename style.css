@@ -1,0 +1,73 @@
+body {
+    background-image: url("https://thumbs.dreamstime.com/b/calculator-pen-table-calendar-blue-background-top-view-office-desk-copy-space-179944470.jpg");
+   }
+/*
+   *{
+    margin:0px;
+    padding:0px;
+    background-color: #0088ff;
+    background-image: url();
+    transition: 1s;
+    
+
+}*/
+.text{
+    text-align: center;
+    margin-top: 20px;
+}
+.calculator :hover{
+    transform: scale(1);
+    z-index: 2;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    display: grid;
+    grid-column: span 4;
+    height: 100px;
+    width: 260px;
+    border: none;
+    border-radius: 12px;
+    background: black;
+
+    font-size: xx-large;
+    color: white;
+    
+    text-align: end;
+}
+.calculator{
+    display: grid;
+    
+    border: 1px solid #565151;
+    border-radius: 2px;
+    padding: 12px;
+    height: 450px;
+    border-radius: 27px;
+    background: #ff00b3;
+    box-shadow:10px 10px 10px rgb(24, 9, 9);
+}
+button{
+    border-radius: 27px;
+    border: none;
+    height: 59px;
+    width: 58px;
+    font-size: 23px;
+}
+.first
+{
+    
+    background: rgb(255 191 0);
+}
+.symbol
+{
+    background: rgb(255 191 0);
+}
+button:active
+{
+    background: rgb(144, 144, 199);
+}
